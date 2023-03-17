@@ -149,13 +149,13 @@ section {
     color: #D6D6D6;
 }
 
-.section__content__title__information .span__green {
+.span__green {
     background: linear-gradient(134.01deg, #3BF686 70.75%, #4CA9FF 90.52%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.section__content__title__information .span__blue {
+.span__blue {
     background: linear-gradient(134.01deg, #1fa9ff 70.75%, #3a93ff 90.52%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -189,4 +189,36 @@ section {
 .logo {
     color: #fff;
     font-size: 32px;
+}
+
+.section__carusel {
+    margin-top: 115px;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+}
+
+.section__carusel__title {
+    max-width: 458px;
+    width: 100%;
+}
+
+.section__carusel__title .title__p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 72px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.section__carusel__title .title__p__inf {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.014em;
+    color: #EDCECE;
 }
