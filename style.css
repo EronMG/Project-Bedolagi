@@ -66,7 +66,7 @@ header {
     border: 0.7px solid #4D4D4D;
 }
 
-section{
+section {
     display: flex;
     max-width: 1140px;
     gap: 30px;
@@ -74,12 +74,12 @@ section{
     width: 100%;
 }
 
-.section__title{
+.section__title {
     max-width: 458px;
     width: 100%;
 }
 
-.section__title__text{
+.section__title__text {
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
@@ -91,7 +91,16 @@ section{
     color: #FFFFFF;
 }
 
-.section__img{
+.section__img {
     padding-top: 11px;
 }
 
+.section__2 {
+    background-color: aquamarine;
+}
+
+.section__background__2 {
+    width: 100%;
+    max-width: 555px;
+    background-color: #4D4D4D;
+}
