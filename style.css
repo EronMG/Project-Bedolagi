@@ -68,6 +68,7 @@ header {
 
 section{
     display: flex;
+    max-width: 1140px;
     width: 100%;
 }
 
