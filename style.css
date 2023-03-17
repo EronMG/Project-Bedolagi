@@ -125,6 +125,12 @@ header {
     margin-bottom: 21px;
 }
 
+.sendiri{
+    font-weight: 600;
+    color: #3BF686;
+    text-decoration: underline;
+}
+
 .bot_title {
     font-family: 'Inter';
     font-style: normal;
@@ -355,4 +361,65 @@ header {
 
 .btn1:hover::before {
     height: 800%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    width: 100%;
+    border-top: 1px solid #4D4D4D;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    max-width: 591px;
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 58px;
+    width: 100%;
+}
+
+.links_footer{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F4F4F4;
+}
+
+.nav_top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 591px;
+    width: 100%;
+}
+
+.bot_title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 23.5px;
+    padding-right: 23.5px;
+    color: #F4F4F4;
+}
+
+.nav_bot{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 48px;
+    gap: 18px;  
+}
+
+.bot_links{
+    display: flex;
+    justify-content: space-between;
 }
