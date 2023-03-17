@@ -11,6 +11,7 @@ body {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    gap: 80px;
 }
 
 header {
@@ -73,7 +74,6 @@ section {
 }
 
 .section__title {
-    padding-top: 95px;
     width: 100%;
     max-width: 950px;
     font-family: 'Sora', sans-serif;
@@ -191,6 +191,9 @@ section {
     font-size: 32px;
 }
 
+
+/**  SECTION CARUSEL **/
+
 .section__carusel {
     margin-top: 115px;
     width: 100%;
@@ -217,15 +220,19 @@ section {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     letter-spacing: 0.014em;
     color: #EDCECE;
+    max-width: 420px;
+    width: 100%;
 }
 
 .section__carusel__content {
     max-width: 556px;
     width: 100%;
+    display: flex;
+    gap: 30px;
 }
 
 .section__carusel__content__left {
@@ -279,10 +286,194 @@ section {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-color: #1fa9ff;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 30px;
     text-align: center;
     max-width: 210px;
+    opacity: 0.6;
 }
+
+.section__carusel__content__right {
+    max-width: 263px;
+    width: 100%;
+    background: #323443;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.content__right__border {
+    width: 72px;
+    height: 72px;
+    background: rgb(0, 255, 27);
+    background: -moz-linear-gradient(76deg, rgba(0, 255, 27, 1) 0%, rgba(0, 119, 255, 1) 100%);
+    background: -webkit-linear-gradient(76deg, rgba(0, 255, 27, 1) 0%, rgba(0, 119, 255, 1) 100%);
+    background: linear-gradient(76deg, rgba(0, 255, 27, 1) 0%, rgba(0, 119, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#00ff1b", endColorstr="#0077ff", GradientType=1);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 36px;
+}
+
+.content__right__background {
+    width: 68px;
+    height: 68px;
+    background: #323443;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__right__web {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Sora';
+}
+
+.content__right__title {
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 210px;
+    opacity: 0.6;
+}
+
+
+/** END SECTION CARUSEL **/
+
+
+/*!   SECTION-FEATURED!!!    */
+
+.section__featured {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 55px;
+    padding-top: 15px;
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+}
+
+.section__featured h2 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.section__featured__content__top {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 30px;
+}
+
+.section__featured__content__top__photo {
+    width: 100%;
+    max-width: 555px;
+    height: 282px;
+    background: url(pic/desing-first.png);
+}
+
+.section__featured__content__bottom__photo {
+    width: 100%;
+    max-width: 555px;
+    height: 282px;
+    background: url(pic/design-second.png);
+}
+
+.section__featured__content__top__title {
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section__featured__content__top__title p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.014em;
+    color: #D5D5D5;
+}
+
+#id_h2 {
+    font-size: 48px;
+}
+
+.section__featured input {
+    background: #323443;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 165px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #ff7675;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    max-width: 75px;
+    width: 100%;
+}
+
+.btn::before {
+    background: #ff7675;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 2s ease;
+}
+
+.btn1::before {
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn1:hover::before {
+    height: 800%;
+}
+
+
+/*!  END SECTION-FEATURED!!!    */
