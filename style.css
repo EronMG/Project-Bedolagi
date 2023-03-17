@@ -41,7 +41,7 @@ header {
     max-width: 625px;
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 68px;
     font-size: 16px;
     color: #D1D1D1;
     font-family: 'Inter', sans-serif;
@@ -66,28 +66,127 @@ header {
     border: 0.7px solid #4D4D4D;
 }
 
-section{
+.mentorship_container {
     display: flex;
-    width: 100%;
+    flex-flow: column wrap;
+    width: 1140px;
+    height: 329px;
+    margin-top: 72px;
 }
 
-.section__title{
-max-width: 458px;
-width: 100%;
-}
-
-.section__title__text{
+.mentorship_title {
+    align-self: flex-start;
+    margin-bottom: 41px;
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 72px;
-    /* or 129% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
-    
-
+    font-size: 48px;
+    line-height: 56px;
     color: #FFFFFF;
+}
+
+.description_title {
+    align-self: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.014em;
+    color: #EFF4F1;
+}
+
+.mentorship_feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 652px;
+    background: #323443;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    margin-bottom: 13px;
+    margin-top: 41px;
+}
+
+.mentorshi_readmore {
+    width: 262px;
+    height: 44px;
+    background: #323443;
+    border-radius: 12px;
+}
+
+.description_bot {
+    display: flex;
+}
+
+.description_top {
+    margin-bottom: 21px;
+}
+
+.bot_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.014em;
+    color: #EFF4F1;
+}
+
+.bot_sidebar {
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    width: 5px;
+    height: 77px;
+    background: linear-gradient(180deg, #3BF686 0%, #4CA9FF 100%);
+}
+
+.feature_container {
+    display: flex;
+    justify-content: center;
+}
+
+.feature_container_f {
+    display: flex;
+    flex-flow: column;
+    gap: 13px;
+}
+
+.feature_container_fa {
+    display: flex;
+}
+
+.smile {
+    font-size: 32px;
+    width: 100%;
+    max-width: 40px;
+}
+
+.feature_title {
+    max-width: 173px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    gap: 10.48px;
+}
+
+.feature_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #C9C9C9;
+    max-width: 173px;
 }
