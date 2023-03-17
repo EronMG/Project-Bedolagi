@@ -69,13 +69,17 @@ header {
 section{
     display: flex;
     max-width: 1140px;
+    gap: 30px;
+    padding-top: 60px;
     width: 100%;
 }
 
 .section__title{
-max-width: 458px;
-width: 100%;
+    max-width: 458px;
+    width: 100%;
+    
 }
+
 
 .section__title__text{
     font-family: 'Sora';
@@ -83,13 +87,12 @@ width: 100%;
     font-weight: 700;
     font-size: 56px;
     line-height: 72px;
-    /* or 129% */
-
     display: flex;
     align-items: center;
     letter-spacing: 1px;
-    
-
     color: #FFFFFF;
 }
 
+.section__img{
+    padding-top: 11px;
+}
