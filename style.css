@@ -235,7 +235,10 @@ section {
     border-radius: 12px;
     display: flex;
     flex-flow: column;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
 }
 
 .content__left__border {
@@ -250,6 +253,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 36px;
 }
 
 .content__left__background {
@@ -260,4 +265,24 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content__left__web {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Sora';
+}
+
+.content__left__title {
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1fa9ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 210px;
 }
