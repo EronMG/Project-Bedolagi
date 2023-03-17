@@ -5,7 +5,8 @@
 
 body {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-flow: column;
     background: #272727;
     width: 100%;
     max-width: 1920px;
@@ -15,7 +16,6 @@ header {
     margin-top: 16px;
     width: 100%;
     max-width: 1140px;
-    margin-left: 150px;
     display: flex;
     flex-flow: column;
     gap: 20px;
@@ -66,12 +66,7 @@ header {
     border: 0.7px solid #4D4D4D;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-}
-
-.mentorship_container{
+.mentorship_container {
     display: flex;
     flex-flow: column wrap;
     width: 1140px;
@@ -79,7 +74,7 @@ main{
     margin-top: 72px;
 }
 
-.mentorship_title{
+.mentorship_title {
     align-self: flex-start;
     margin-bottom: 41px;
     font-family: 'Sora';
@@ -90,45 +85,47 @@ main{
     color: #FFFFFF;
 }
 
-.description_title{
+.description_title {
     align-self: flex-start;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 32px; 
+    line-height: 32px;
     letter-spacing: 0.014em;
-    color: #EFF4F1; 
+    color: #EFF4F1;
 }
 
-.mentorship_feature{
+.mentorship_feature {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 652px;
-    height: 231;
+    width: 100%;
+    max-width: 652px;
     background: #323443;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 12px;
     margin-bottom: 13px;
     margin-top: 41px;
-
 }
 
-.mentorshi_readmore{
+.mentorshi_readmore {
     width: 262px;
     height: 44px;
     background: #323443;
     border-radius: 12px;
 }
-.description_bot{
+
+.description_bot {
     display: flex;
 }
 
-.description_top{
+.description_top {
     margin-bottom: 21px;
 }
 
-.bot_title{
+.bot_title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -138,7 +135,7 @@ main{
     color: #EFF4F1;
 }
 
-.bot_sidebar{
+.bot_sidebar {
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 9px;
@@ -147,29 +144,28 @@ main{
     background: linear-gradient(180deg, #3BF686 0%, #4CA9FF 100%);
 }
 
-.feature_container{
+.feature_container {
     display: flex;
     justify-content: center;
 }
 
-.feature_container_f{
+.feature_container_f {
     display: flex;
     flex-flow: column;
     gap: 13px;
-    
 }
-.feature_container_fa{
+
+.feature_container_fa {
     display: flex;
 }
 
-.smile{
+.smile {
     font-size: 32px;
-    width:100%;
+    width: 100%;
     max-width: 40px;
-
 }
 
-.feature_title{
+.feature_title {
     max-width: 173px;
     display: flex;
     justify-content: center;
@@ -184,7 +180,7 @@ main{
     gap: 10.48px;
 }
 
-.feature_text{
+.feature_text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
