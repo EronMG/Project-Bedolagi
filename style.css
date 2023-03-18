@@ -110,7 +110,8 @@ section {
     flex-flow: column;
     padding-left: 47px;
     padding-top: 20px;
-    gap: 50px;
+    gap: 32px;
+    padding-bottom: 15px;
 }
 
 .content__bottom 
@@ -172,16 +173,18 @@ color: #D5D5D5;
 }
 
 .section__background__3 {
-    justify-content: space-between;
-    width: 555px;
-    height: 282px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
     background-color: #323443;
+    max-width: 555px;
+    width: 100%;
 }
 
 .content__top__2
 {
     padding-left: 52px;
-    padding-top: 77px;
+    padding-top: 80px;
     border-radius: 9px;
 }
 
@@ -190,8 +193,8 @@ color: #D5D5D5;
     display: flex;
     justify-content: center;
     padding-left: 51px;
-    padding-right: 84px;
-    padding-top: 42px;
+    padding-right: 62px;
+    padding-top: 18px;
 }
 
 .education__text
